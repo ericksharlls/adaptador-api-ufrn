@@ -23,6 +23,7 @@ public interface TurmaAPIUFRNRepository {
 	 *                                         
 	 * @return lista dos departamentos acadêmicos vinculados a um Centro.
 	 * @since 1.0-SNAPSHOT
+	 * 
 	 */
 	public List<DepartamentoDTO> retornaUnidadesAcademicasPorIdCentro(Integer idCentro, String clientId, String clientSecret);
 
