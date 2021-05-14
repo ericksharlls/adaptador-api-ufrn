@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.modulo.adaptador.apiufrn</groupId>
+  <artifactId>adaptador-api-ufrn</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>adaptador-api-ufrn</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+      <!-- Spring -->
+      <spring-framework.version>5.1.1.RELEASE</spring-framework.version>
+      <!-- JSON in Java -->
+      <org-json.version>20190722</org-json.version>
+      <java.version>1.8</java.version>
+  </properties>
+  
+  <dependencies>
+      	<!-- Spring -->
+    	<dependency>
+      		<groupId>org.springframework</groupId>
+      		<artifactId>spring-core</artifactId>
+      		<version>${spring-framework.version}</version>
+    	</dependency>
+    	<dependency>
+      		<groupId>org.springframework</groupId>
+      		<artifactId>spring-webmvc</artifactId>
+      		<version>${spring-framework.version}</version>
+    	</dependency>
+    	<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+    		<groupId>org.json</groupId>
+    		<artifactId>json</artifactId>
+    		<version>${org-json.version}</version>
+		</dependency>
+    </dependencies>
+  
+</project>
